@@ -6,5 +6,5 @@ echo " NAME IS: $name"
 
 echo "PLEASE ENTER THE YOUR PASSWORD:"
 read -s password
-echo " YOUR PASSWORD IS: $password
+echo " YOUR PASSWORD IS: $password"
 
