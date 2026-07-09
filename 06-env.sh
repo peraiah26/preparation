@@ -1,3 +1,4 @@
-#!/bin/bash
+#!/bin/bas
 
-echo "Course Name is: $COURSE"
+export COURSE="DevOps"
+echo "Course name is: $COURSE"
