@@ -1,0 +1,10 @@
+- name: variables in ansible
+  hosts: local
+  var:
+    COURSE: "linux"
+    DURIATION: "120hr"
+    TRAINER: "peraiah"
+  tasks:
+  - name: print the variables
+    ansible.builtn.debug:
+      msg: "course: {{ COURSE }} duriation: {{ DURIATION }} trainer: {{ task }}"
