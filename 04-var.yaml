@@ -1,5 +1,6 @@
 - name: variables in ansible
   hosts: local
+  connection: local
   vars:
     COURSE: linux
     DURIATION: 120hr
