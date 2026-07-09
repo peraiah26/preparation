@@ -1,9 +1,9 @@
 - name: variables in ansible
   hosts: local
   vars:
-    COURSE: "linux"
-    DURIATION: "120hr"
-    TRAINER: "peraiah"
+    COURSE: linux
+    DURIATION: 120hr
+    TRAINER: peraiah
   tasks:
   - name: print the variables
     ansible.builtin.debug:
