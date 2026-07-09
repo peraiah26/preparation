@@ -7,7 +7,7 @@
     TRAINER: peraiah
   tasks:
   - name: print the variables
-  vars:
-    COURSE: DevOps321
+    vars:
+      COURSE: DevOps321
     ansible.builtin.debug:
       msg: "course: {{ COURSE }}, duriation: {{ DURIATION }}, trainer: {{ TRAINER }}"
