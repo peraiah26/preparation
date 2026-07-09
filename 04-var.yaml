@@ -6,5 +6,5 @@
     TRAINER: "peraiah"
   tasks:
   - name: print the variables
-    ansible.builtn.debug:
+    ansible.builtin.debug:
       msg: "course: {{ COURSE }} duriation: {{ DURIATION }} trainer: {{ task }}"
