@@ -1,0 +1,9 @@
+- name: variables in files
+  hosts: local
+  connection: local
+  vars_files:
+  - bio.yaml
+  tasks:
+  - name: print the user information
+    ansible.builtin.debug:
+      msg: "name: {{ NAME }}, age: {{ AGE }}, surename: {{ SURENAME}}, number: {{ PHNO }}"
