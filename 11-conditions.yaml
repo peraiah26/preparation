@@ -1,6 +1,8 @@
 - name: conditions in ansible
   hosts: local
   connection: local
+  vars:
+    NUMBER: 1
   tasks:
   - name: conditions
     ansible.builtin.debug:
