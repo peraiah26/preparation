@@ -9,3 +9,5 @@ if [ $(($NUMBER % $i)) -eq 0 ]; then
 else
 
     echo " given number is not prime number"
+
+fi
