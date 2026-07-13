@@ -1,0 +1,21 @@
+- name: data instanceTypes
+  hosts: local 
+  connection: local
+  vars:
+    NAME: "Tellagorla Peraiah"
+    AGE: 25
+    is_live: yes 
+
+    tools:
+    - "ansible"
+    - docker
+    -  shell-scripting
+
+    concepts:
+      cloud: aws
+      cm: ansible
+  tasks:
+  - name: print the data
+    ansible.builtin.debug:
+      msg: " name is: {{ NAME }}, age: {{ AGE }}, is_live: {{ is_live }}, tools are: {{ tools}}, concepts are: {{ concepts }}"
+
