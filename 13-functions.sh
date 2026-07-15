@@ -1,8 +1,8 @@
 #!/bin/bash
 
-UID=$(id -u)
+USERID=$(id -u)
 
-if [ $UID -ne 0 ]; then
+if [ $USERID -ne 0 ]; then
     echo " ERROR:: please run the script root privillages"
     exit 1
 fi
