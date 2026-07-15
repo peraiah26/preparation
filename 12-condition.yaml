@@ -7,4 +7,4 @@
   - name: print the script
     ansible.builtin.debug:
       msg: echo" Given number $NUMBER is less than 20"
-    when: $NUMBER < 2
+    when: NUMBER < 2
