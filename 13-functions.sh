@@ -16,7 +16,7 @@ peraiah()
     else
 
         echo "installation $2 is successfull"
-        exit 1
+        
     fi
 }
 
