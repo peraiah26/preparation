@@ -22,3 +22,6 @@ peraiah()
 
 dnf install nginx -y
 peraiah $? "nginx"
+
+dnf install ansible -y
+peraiah $? "ansible"
