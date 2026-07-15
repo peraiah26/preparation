@@ -25,3 +25,6 @@ peraiah $? "nginx"
 
 dnf install ansible -y
 peraiah $? "ansible"
+
+dnf install mysql -y
+peraiah $? "mysql"
