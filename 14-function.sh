@@ -3,8 +3,13 @@
 #}
 #hello Peraiah
 
-copy(){
-    cp $1 $2
-}
+# copy(){
+#     cp $1 $2
+# }
 
-copy print dir
+# copy print dir
+
+disk(){
+    df -hT
+}
+disk
