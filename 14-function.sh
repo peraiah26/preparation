@@ -1,4 +1,10 @@
-hello(){
-    echo "HELLO WELCOME $1"
+#hello(){
+   # echo "HELLO WELCOME $1"
+#}
+#hello Peraiah
+
+copy(){
+    cp $1 $2
 }
-hello Peraiah
+
+copy print dir
