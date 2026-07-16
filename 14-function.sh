@@ -1,3 +1,5 @@
+#/bin/bash
+
 #hello(){
    # echo "HELLO WELCOME $1"
 #}
