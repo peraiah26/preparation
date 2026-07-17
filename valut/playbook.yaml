@@ -1,7 +1,7 @@
 - name: ansible-vaults
   hosts: local
   connection: local
-  vars:
+  vars_files::
   - secrate.yaml
   tasks:
   - name: to view the data 
