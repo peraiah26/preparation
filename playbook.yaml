@@ -1,9 +1,12 @@
+---
 - name: ansible-vaults
   hosts: local
   connection: local
+
   vars_files:
-   - secrate.yaml
+    - secret.yaml
+
   tasks:
-  - name: to view the data 
-    ansible.buitin.debug:
-      msg: "ADMIN: {{ admin }}, PASSWORD: {{ password }}"
+    - name: View the data
+      ansible.builtin.debug:
+        msg: "ADMIN: {{ admin }}, PASSWORD: {{ password }}"
