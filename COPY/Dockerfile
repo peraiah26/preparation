@@ -1,4 +1,4 @@
-FROM almalinux
-RUN rm -rf /usr/share/nginx/html/index.html
-COPY peraiah/ /usr/share/nginx/html
-CMD ["sleep","2000"]
+FROM almalinux:9
+RUN dnf install nginx -y
+COPY peraiah /usr/share/nginx/html/index.html
+CMD ["nginx","-g","daemon off;"]
