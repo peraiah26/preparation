@@ -1,3 +1,4 @@
 FROM almalinux:9
-ADD add.tar /usr/share/nginx/html
+ADD https://en.wikipedia.org/wiki/Ruturaj_Gaikwad /tmp/
+
 CMD ["sleep","1000"]
