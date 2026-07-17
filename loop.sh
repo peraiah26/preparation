@@ -7,7 +7,7 @@ done
 
 for name in peraiah rambabu ganesh
 do
-    echo "$name"
+    echo "Hello $name"
 done
 
         
