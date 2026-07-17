@@ -1,0 +1,9 @@
+- name: ansible-vaults
+  hosts: local
+  connection: local
+  vars:
+  - secrate.yaml
+  tasks:
+  - name: to view the data 
+    ansible.buitin.debud:
+      msg: "ADMIN: {{ admin }}, PASSWORD: {{ password }}"
