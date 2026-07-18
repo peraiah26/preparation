@@ -1,5 +1,5 @@
 FROM almalinux:9
-ENV NAME="DevOps"
-CMD ["echo","Hello $NAME"]
-
+ARG NAME=peraiah
+RUN echo "My name is $NAME"
+CMD ["sleep","1000"]
 
