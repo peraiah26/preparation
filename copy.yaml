@@ -1,6 +1,7 @@
 - name: copying files
   hosts: local 
   connection: local
+  become: yes
   tasks:
   - name: copying
     ansible.builtin.copy:
