@@ -5,6 +5,6 @@ if [ -f "$file" ]
 then
     echo "File is already exists"
 else
-    touch $1
-    echo " the file is created"
+    
+    echo " the file doesn,t  exists"
 fi
