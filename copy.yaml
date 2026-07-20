@@ -7,6 +7,6 @@
     ansible.builtin.copy:
       src: 01-ping.yaml
       dest: directory
-      owner: peraiah
-      group: kotcherla
+      owner: ec2-user
+      group: ec2-user
       mode: "0655"
