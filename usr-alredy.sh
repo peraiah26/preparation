@@ -6,7 +6,7 @@ do
     then
         echo "The user is already exist"
     else
-        useradd user$1
+        useradd user$i
         echo "Created the user"
     fi
 done
