@@ -1,11 +1,11 @@
 #!/bin/bash
 
 file_name=$1
-if [ -f "$file" ]
+if [ -f "$file_name" ]
 then
     echo "file is already exits"
 
 else
-    touch $file
+    touch $file_name
     echo "File is created"
 fi
