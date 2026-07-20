@@ -1,0 +1,11 @@
+- name: copying files
+  hosts: local 
+  connection: local
+  tasks:
+  - name: copying
+    ansible.builtin.copy:
+      src: 01-ping.yaml
+      dest: directory
+      owner: peraiah
+      group: kotcherla
+      mode: "0655"
