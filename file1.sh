@@ -6,6 +6,6 @@ then
     echo "file is already exits"
 
 else
-    tuoch $file
+    touch $file
     echo "File is created"
 fi
