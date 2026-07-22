@@ -1,0 +1,9 @@
+- name: using rigesty command
+  hosts: local
+  connection: local
+  tasks:
+  - name: check hostname
+    command: hostname
+    register: peraiah
+    ansible.builtin.debug:
+      vars: peraiah
