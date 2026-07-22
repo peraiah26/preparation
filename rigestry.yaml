@@ -5,5 +5,7 @@
   - name: check hostname
     command: hostname
     register: peraiah
+
+  - name: print register 
     ansible.builtin.debug:
-      vars: peraiah
+      var: peraiah.stdout
