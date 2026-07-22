@@ -8,3 +8,8 @@ if [ $(($number%2)) -eq 0 ]; then
 else
     echo "ODD"
 fi
+
+
+read -p "Enter your age: " age
+
+echo "Your age is $age"
