@@ -10,4 +10,4 @@ else
 
 fi
 
-echo "HOSTNAME IS: $hostname"
+echo "HOSTNAME IS: $(hostname)"
