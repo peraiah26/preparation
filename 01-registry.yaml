@@ -1,0 +1,11 @@
+- name: register
+  hosts: local
+  connection: local
+  tasks:
+  - name: print registry
+    command: df -hT 
+    register: disk
+
+  - name: register
+    ansible.builtin.debug:
+      var: disk

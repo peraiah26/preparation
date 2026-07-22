@@ -9,11 +9,3 @@
   - name: print register 
     ansible.builtin.debug:
       var: peraiah.stdout
-
-- name: Check disk usage
-  command: df -h
-  register: disk
-
-- name: Print output
-  debug:
-    var: disk.stdout
