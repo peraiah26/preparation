@@ -1,0 +1,13 @@
+- name: example for ansible-vaults
+  hosts: local
+  connection: local
+  vars_files:
+  - database.yaml
+  tasks:
+  - name: display the user name
+    ansible.builtin.debug:
+      var: db_user
+  - name: display the user Password
+    ansible.builtin.debud:
+      var: db_password
+      
