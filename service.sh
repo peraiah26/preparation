@@ -13,3 +13,4 @@ fi
 echo "HOSTNAME IS: $(hostname)"
 echo "KERNAL NAME IS: $(uname -r)"
 echo "CURRENT PS ID IS: $$"
+echo "MEMORY SIZE IS:$(df -hT)"
