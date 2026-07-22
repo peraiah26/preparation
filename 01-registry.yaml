@@ -8,4 +8,4 @@
 
   - name: register
     ansible.builtin.debug:
-      var: disk
+      var: disk.stdout
