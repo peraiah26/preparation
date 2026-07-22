@@ -12,3 +12,4 @@ then
     echo "B IS BIG"
 else
     echo "C IS BIG"
+fi
