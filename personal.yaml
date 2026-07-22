@@ -8,6 +8,5 @@
     ansible.builtin.debug:
       var: db_user
   - name: display the user Password
-    ansible.builtin.debud:
+    ansible.builtin.debug:
       var: db_password
-      
