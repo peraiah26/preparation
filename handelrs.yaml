@@ -1,0 +1,15 @@
+- name: handlers
+  hosts: local
+  connection: local
+  tasks:
+  - name: copy nginx file 
+    ansible.builtin.copy:
+      src: nginx.conf
+      dest: /etc/nginx/config
+      notify:
+        - Restart nginx
+  handlers:
+  - name: Restart nginx
+    ansible.builtin.service:
+        name: nginx
+        state: restarted
