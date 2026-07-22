@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file= "linux"
+file="linux"
 
 if [ -e "$file" ]
 then
