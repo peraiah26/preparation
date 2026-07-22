@@ -15,4 +15,4 @@ echo "KERNAL NAME IS: $(uname -r)"
 echo "CURRENT PS ID IS: $$"
 echo "MEMORY SIZE IS:$(df -hT)"
 
-echo "TOP FIVE MEMORY USAGE IS: $(ps -eo pid,ppid,cpu,mem --sort=-%mem |head -5)"
+echo "TOP FIVE MEMORY USAGE IS:$(ps -eo pid,ppid,cpu,mem --sort=-%mem |head -5)"
