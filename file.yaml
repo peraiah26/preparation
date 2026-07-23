@@ -10,5 +10,4 @@
   - name: file
     ansible.builtin.file:
       path: /preparation/dir/file.txt
-      state: file
-      
+      state: touch
