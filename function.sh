@@ -4,3 +4,5 @@ fun(){
 }
 
 fun peraiah
+fun thala
+fun ntr
