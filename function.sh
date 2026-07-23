@@ -1,6 +1,6 @@
 
 fun(){
-    echo "Hello $"
+    echo "Hello $1"
 }
 
 fun peraiah
