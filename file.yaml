@@ -5,9 +5,9 @@
   tasks:
   - name: directory
     ansible.builtin.file:
-      path: /preparation/room
+      path: /home/ec2-user/preparation/room
       state: directory
   - name: file
     ansible.builtin.file:
-      path: /preparation/room/file.txt
+      path: /home/ec2-user/preparation/file.text
       state: touch
