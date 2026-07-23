@@ -1,5 +1,5 @@
 cron_shedule(){
     
-     echo "hello peraiah -$ (date)" >> print
+     echo "hello peraiah - $(date)" >> print
 }
 cron_shedule
