@@ -9,5 +9,5 @@
       state: directory
   - name: file
     ansible.builtin.file:
-      path: /home/ec2-user/preparation/file.text
+      path: /home/ec2-user/preparation/room/file.text
       state: touch
