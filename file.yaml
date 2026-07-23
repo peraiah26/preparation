@@ -1,0 +1,14 @@
+- name: creating files and directory
+  hosts: local
+  connection: local
+  become: yes
+  tasks:
+  - name: directory
+    ansible.builtin.file:
+      path: /preparation/room
+      state: directory
+  - name: file
+    ansible.builtin.file:
+      path: /preparation/dir/file.txt
+      state: file
+      
